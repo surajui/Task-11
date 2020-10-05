@@ -1,0 +1,53 @@
+<!-- <div class="float-left bg-info">
+  <h1>Employee Form</h1>
+  <form #empForm="ngForm" (submit)="subForm(empForm)">
+    <div class="form-group">
+      Employee ID: <input [(ngModel)]="id" name="eId" class="form-group" />
+    </div>
+    <div class="form-group">
+      Employee Name:<input [(ngModel)]="name" name="eName" class="form-group" />
+    </div>
+    <div class="form-group">
+      Employee City:<input [(ngModel)]="city" name="eCity" class="form-group" />
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</div> -->
+<!-- <div class="row"></div>
+<div class="flex-container">
+  <div class="flex-item" *ngFor="let x of array1">arr1{{ x.name }},</div>
+<div class="flex-item-">2</div>
+</div>
+<div class="flex-container">
+  <div class="flex-item" *ngFor="let x of array2">arr2{{ x.name }},</div>
+</div>
+<div class="flex-container">
+  <div class="flex-item" *ngFor="let x of array3">arr3{{ x.name }},</div>
+</div> -->
+<div class="row">
+  <div class="col-4">
+    <div class="flex-item" *ngFor="let x of array1">{{ x.name }},</div>
+  </div>
+  <div class="col-4">
+    <div class="flex-item" *ngFor="let x of array2">{{ x.name }},</div>
+  </div>
+  <div class="col-4">
+    <div class="flex-item" *ngFor="let x of array3">{{ x.name }},</div>
+  </div>
+</div>
+<!-- <div>
+  <div *ngFor="let x of array1">
+    {{ x.name }}
+  </div>
+</div>
+<div>
+  <div *ngFor="let x of array2">
+    {{ x.name }}
+  </div>
+</div>
+<div>
+  <div *ngFor="let x of array3">
+    {{ x.name }}
+  </div>
+</div> -->
